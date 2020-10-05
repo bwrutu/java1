@@ -1,8 +1,13 @@
 public class AddTwoNumbers {
 
    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+      int num1 , num2 , sum;
+      System.out.println("Enter First Number: ");
+        num1 = sc.nextInt();
         
-      int num1 = 5, num2 = 15, sum;
+        System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
       sum = num1 + num2;
 
       System.out.println("Sum of these numbers: "+sum);
